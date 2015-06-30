@@ -21,5 +21,6 @@ bool is_full(stack_t *ps);
 void display(stack_t *ps);
 int peep(stack_t *ps);
 int peepandtest(stack_t *ps, bool *underflow);
+int num_items(stack_t *ps);
 
 #endif

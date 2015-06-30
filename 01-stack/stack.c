@@ -117,3 +117,7 @@ int peepandtest(stack_t *ps, bool *underflow)
     return ret;
   }
 }
+int num_items(stack_t *ps)
+{
+  return (ps->top);
+}
